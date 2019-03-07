@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-10 14:21:55+0000\n"
+"PO-Revision-Date: 2019-03-05 22:16:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -61,7 +61,7 @@ msgstr "Метадані для сайтів мережі"
 
 #: wp-admin/about.php:75
 msgid "Introduced in WordPress 5.0, the new block editor continues to improve. Most significantly, WordPress 5.1 includes solid performance improvements within the editor. The editor should feel a little quicker to start, and typing should feel smoother. Nevertheless, expect more performance improvements in the next releases."
-msgstr "Запропонований в WordPress 5.0 редактор блоків продовжує поліпшуватися. Зокрема, значно була покращена його продуктивність. Редактор буде швидше запускатися і набирати текст в ньому буде більше гладко. У подальших випусках продуктивність буде і далі поліпшуватися."
+msgstr "Запропонований в WordPress 5.0 блоковий редактор продовжує поліпшуватися. Зокрема, значно була покращена його продуктивність. Редактор буде швидше запускатися і набирати текст в ньому буде більше гладко. У подальших випусках продуктивність буде і далі поліпшуватися."
 
 #: wp-admin/about.php:71
 msgid "Editor Performance"
@@ -89,7 +89,7 @@ msgstr "Ви успішно оновили сайт до WordPress 5.1! Ця в�
 
 #: wp-admin/about.php:37
 msgid "A Little Better Every Day"
-msgstr "Трошки краще кожного дня"
+msgstr "Трішки краще з кожним днем"
 
 #: wp-admin/about.php:26
 msgid "Thank you for updating to the latest version!"
@@ -275,11 +275,11 @@ msgid "My Network"
 msgstr "Моя мережа"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:670
-msgid "This plugin doesn&#8217;t work with your version of PHP. "
+msgid "This plugin doesn&#8217;t work with your version of PHP."
 msgstr "Цей плагін не буде працювати з вашою версією PHP."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:661
-msgid "This plugin doesn&#8217;t work with your version of WordPress. "
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
 msgstr "Цей плагін не буде працювати з вашою версією WordPress."
 
 #. translators: %s: "Update PHP" page URL
@@ -300,7 +300,7 @@ msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">l
 msgstr "<a href=\"%1$s\">Будь ласка, оновіть WordPress</a>, потім <a href=\"%2$s\">дізнайтеся більше про оновлення PHP</a>."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:637
-msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP. "
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "Цей плані не буде працювати з вашими поточними версіями WordPress і PHP."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:532
@@ -323,7 +323,7 @@ msgstr "Видалення категорії не приводить до ви�
 #. translators: %s: Classic Editor plugin URL
 #: wp-admin/edit-form-blocks.php:412
 msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or try the <a href=\"%s\">Classic Editor plugin</a>."
-msgstr "Редактор блоків вимагає JavaScript. Будь ласка, увімкніть JavaScript в налаштуваннях вашего браузеру або спробуйте плагін <a href=\"%s\">Classic Editor</a>."
+msgstr "Блоковий редактор вимагає JavaScript. Будь ласка, увімкніть JavaScript в налаштуваннях вашего браузеру або спробуйте плагін <a href=\"%s\">Classic Editor</a>."
 
 #: wp-admin/post.php:46
 msgid "A post type mismatch has been detected."
@@ -421,7 +421,7 @@ msgstr "Ласкаво просимо до WordPress. Це ваш перший �
 
 #: wp-admin/credits.php:23 wp-admin/freedoms.php:33
 msgid "Thank you for updating to the latest version! WordPress %s introduces a robust new content creation experience."
-msgstr "Дякую за оновлення до останньої версії! WordPress %s представляє новий сильний досвід створення вмісту."
+msgstr "Спасибі за оновлення до останньої версії! WordPress %s представляє вам нові потужні можливості по створенню вмісту."
 
 #. translators: first page content, %s: site admin URL
 #: wp-admin/includes/upgrade.php:302
@@ -1656,12 +1656,12 @@ msgstr "%s (Санітизована версія імені автора.)"
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:249
 msgid "%s (Category slug. Nested sub-categories appear as nested directories in the URL.)"
-msgstr "%s (Слаґ категорії. Вкладені підкатегорії виглядають як вкладені директорії в посиланні.)"
+msgstr "%s (Частина посилання категорії. Вкладені підкатегорії виглядають як вкладені директорії в посиланні.)"
 
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:247
 msgid "%s (The sanitized post title (slug).)"
-msgstr "%s (Санітизована назва запису (слаґ).)"
+msgstr "%s (Санітизована назва запису (частина посилання).)"
 
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:245
@@ -2237,17 +2237,17 @@ msgstr "%s плагін успішно оновлено."
 #. translators: 1: URL to WordPress release notes, 2: new WordPress version
 #: wp-admin/includes/update.php:283
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! Please notify the site administrator."
-msgstr "Вже є <a href=\"%1$s\">WordPress %2$s</a>! Будь ласка, сповістіть адміністратора сайту."
+msgstr "Доступний <a href=\"%1$s\">WordPress %2$s</a>! Будь ласка, повідомте адміністратора сайту."
 
 #: wp-admin/includes/update.php:278
 msgid "Please update WordPress now"
-msgstr "Будь ласка, оновіть WordPress"
+msgstr "Будь ласка, оновіть WordPress зараз"
 
 #. translators: 1: URL to WordPress release notes, 2: new WordPress version, 3:
 #. URL to network admin, 4: accessibility text
 #: wp-admin/includes/update.php:274
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! <a href=\"%3$s\" aria-label=\"%4$s\">Please update now</a>."
-msgstr "Вже є <a href=\"%1$s\">WordPress %2$s</a>! <a href=\"%3$s\" aria-label=\"%4$s\">Будь ласка, встановіть оновлення</a>."
+msgstr "Доступний <a href=\"%1$s\">WordPress %2$s</a>! <a href=\"%3$s\" aria-label=\"%4$s\">Будь ласка, оновіться</a>."
 
 #: wp-admin/includes/theme.php:271
 msgid "Portfolio"
@@ -5661,7 +5661,7 @@ msgstr "Оберіть меню для редагування:"
 
 #: wp-admin/includes/ms.php:749
 msgid "Thank you for Updating! Please visit the <a href=\"%s\">Upgrade Network</a> page to update all your sites."
-msgstr "Дякуємо за оновлення! Будь ласка, відвідайте сторінку <a href=\"%s\">Оновити мережу</a> щоб оновити всі ваші сайти."
+msgstr "Дякуємо за оновлення! Будь ласка, відвідайте сторінку <a href=\"%s\">Оновити мережу</a>, щоб оновити всі ваші сайти."
 
 #: wp-admin/setup-config.php:444
 msgid "All right, sparky! You&#8217;ve made it through this part of the installation. WordPress can now communicate with your database. If you are ready, time now to&hellip;"
@@ -5739,7 +5739,7 @@ msgstr "Вставлення медіа"
 
 #: wp-admin/edit-form-advanced.php:257
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "Розташування заголовка і редактора зафіксоване, проте ви можете переміщати всі інші блоки шляхом перетягування. Можна також згортати і розгортати їх, натискаючи на заголовок блоку. На вкладці \"Параметри екрану\" можна увімкнути додаткові блоки (\"Цитата\", \"Відправити зворотні посилання\", \"Користувацькі поля\", \"Обговорення\", \"Слаґ\", \"Автор\"), а також вибрати розмітку екрану (1 або 2 колонки)."
+msgstr "Розташування заголовка і редактора зафіксоване, проте ви можете переміщати всі інші блоки шляхом перетягування. Можна також згортати і розгортати їх, натискаючи на заголовок блоку. На вкладці \"Параметри екрану\" можна увімкнути додаткові блоки (\"Цитата\", \"Відправити зворотні посилання\", \"Користувацькі поля\", \"Обговорення\", \"Частина посилання\", \"Автор\"), а також вибрати розмітку екрану (1 або 2 колонки)."
 
 #: wp-admin/custom-header.php:123
 msgid "Don&#8217;t forget to click &#8220;Save Changes&#8221; when you&#8217;re done!"
@@ -6019,7 +6019,7 @@ msgstr "Створення сторінки дуже схоже на створ�
 
 #: wp-admin/edit-tags.php:253
 msgid "You can delete Link Categories in the Bulk Action pull-down, but that action does not delete the links within the category. Instead, it moves them to the default Link Category."
-msgstr "Видалити рубрику посилань можна за допомогою випадаючого меню &laquo;Дії&raquo;, однак це не призведе до видалення посилань що містяться в ній. Вони будуть переміщені в рубрику за замовчуванням."
+msgstr "Видалити категорію посилань можна за допомогою випадаючого меню &laquo;Дії&raquo;, однак це не призведе до видалення посилань що містяться в ній. Вони будуть переміщені в категорію за замовчуванням."
 
 #: wp-admin/edit-tags.php:602
 msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>."
@@ -6816,7 +6816,7 @@ msgstr "Загальні налаштування"
 
 #: wp-admin/options-permalink.php:23
 msgid "Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the web address used to link to your content. The URL to each post should be permanent, and never change &#8212; hence the name permalink."
-msgstr "Постійні посилання вказують на Ваші сторінки і публікації, а також архіви категорій і теґів. Постійне посилання — це веб-адреса, що використовується як посилання на Ваш опублікований матеріал. Адреса кожного матеріалу повинна бути постійною і ніколи не змінюватися, тому такі посилання і називаються постійними."
+msgstr "Постійні посилання вказують на Ваші сторінки і публікації, а також архіви категорій і позначок. Постійне посилання — це веб-адреса, що використовується як посилання на Ваш опублікований матеріал. Адреса кожного матеріалу повинна бути постійною і ніколи не змінюватися, тому такі посилання і називаються постійними."
 
 #: wp-admin/options-writing.php:23
 msgid "You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links."
@@ -6864,7 +6864,7 @@ msgstr "Пошкоджені віджети"
 
 #: wp-admin/edit-tags.php:249
 msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there&#8217;s no relationship from one tag to another."
-msgstr "Можна присвоювати публікаціям ключові слова, використовуючи <strong>теґи</strong>. На відміну від категорій, у теґів немає ієрархії - це означає, що вони не пов'язані між собою."
+msgstr "Можна присвоювати публікаціям ключові слова, використовуючи <strong>позначки</strong>. На відміну від категорій, у позначок немає ієрархії - це означає, що вони не пов'язані між собою."
 
 #: wp-admin/widgets.php:64
 msgid "Removing and Reusing"
@@ -7972,15 +7972,15 @@ msgstr "Більшість тем виводять власні віджети �
 
 #: wp-admin/options-permalink.php:34
 msgid "If you pick an option other than Plain, your general URL path with structure tags (terms surrounded by <code>%</code>) will also appear in the custom structure field and your path can be further modified there."
-msgstr "Якщо ви обирете структуру, відмінну від Простої, ваш загальний шлях URL зі структурними теґами (вирази, оточені символами <code>%</code>), також з'явиться в полі Користувацької структури, і ваш шлях може бути змінений там."
+msgstr "Якщо ви обирете структуру, відмінну від Простої, ваш загальний шлях URL зі структурними позначками (вирази, оточені символами <code>%</code>), також з'явиться в полі Користувацької структури, і ваш шлях може бути змінений там."
 
 #: wp-admin/options-permalink.php:35
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>."
-msgstr "Коли ви присвоює публікації кілька категорій або теґів, в посиланні може стати тільки одна з них: категорія з найменшим ID. Це відноситься до структур, що включає елементи <code>%category%</code> і <code>%tag%</code>."
+msgstr "Коли ви присвоює публікації кілька категорій або позначок, в посиланні може стати тільки одна з них: категорія з найменшим ID. Це відноситься до структур, що включає елементи <code>%category%</code> і <code>%tag%</code>."
 
 #: wp-admin/options-permalink.php:44
 msgid "The Optional fields let you customize the &#8220;category&#8221; and &#8220;tag&#8221; base names that will appear in archive URLs. For example, the page listing all posts in the &#8220;Uncategorized&#8221; category could be <code>/topics/uncategorized</code> instead of <code>/category/uncategorized</code>."
-msgstr "У блоці «Власна структура» можна налаштувати префікси, які буде видно в адресах архівів. Наприклад, адреса сторінки з усіма публікаціями з категорії «Некатегоризовано» може мати вигляд <code>/topics/uncategorized</code> замість <code>/category/uncategorized</code>."
+msgstr "У блоці «Власна структура» можна налаштувати префікси, які буде видно в адресах архівів. Наприклад, адреса сторінки з усіма публікаціями з категорії «Без категорії» може мати вигляд <code>/topics/uncategorized</code> замість <code>/category/uncategorized</code>."
 
 #: wp-admin/options-reading.php:26
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two <a href=\"%s\">Pages</a>. One will become the homepage, and the other will be where your posts are displayed."
@@ -8053,11 +8053,11 @@ msgstr "Помічники можуть писати та керувати св�
 
 #: wp-admin/edit-form-advanced.php:284
 msgid "You can also create posts with the <a href=\"%s\">Press This bookmarklet</a>."
-msgstr "Ви також можете створювати записи букмарклетом <a href=\"%s\">\"Press This\"</a>."
+msgstr "Ви також можете створювати записи за допомогою <a href=\"%s\">закладки &laquo;Опублікувати&raquo;</a>."
 
 #: wp-admin/edit-tags.php:277
 msgid "<strong>Slug</strong> &mdash; The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
-msgstr "<strong>Слаґ</strong> &mdash; \"Слаґ\" це сумісна з URL посиланнями версія назви. Зазвичай це маленькі латинські букви, цифри, та дефіси."
+msgstr "<strong>Частина посилання</strong> &mdash; &#8220;Частина посилання&#8221; це версія назви для URL. Зазвичай це маленькі букви, цифри, та дефіси."
 
 #: wp-admin/custom-background.php:90
 msgid "You can customize the look of your site without touching any of your theme&#8217;s code by using a custom background. Your background can be an image or a color."
@@ -8081,7 +8081,7 @@ msgstr "Обов'язкові поля вказані; інші необов'я�
 
 #: wp-admin/user-edit.php:52
 msgid "Your username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts."
-msgstr "Лоґін змінити не можна, однак можна використовувати інші поля, щоб ввести Ваше справжнє ім'я або нік, а також вибрати ім'я, що відображається поряд з вашими публікаціями."
+msgstr "Ім'я користувача змінити не можна, однак можна використовувати інші поля, щоб ввести ваше справжнє ім'я або нік, а також вибрати ім'я, що відображається поряд з вашими записами."
 
 #: wp-admin/comment.php:49
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
@@ -8250,15 +8250,15 @@ msgstr "Ви можете змінити вигляд цього екрану н
 
 #: wp-admin/edit-tags.php:255
 msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
-msgstr "Яка ж відмінність між теґами і категоріями? Зазвичай для теґів використовують ключові слова, які підходять для даної публікації. А в якості категорій використовують наперед підготовлені розділи. Якщо розглядати сайт як книжку — то категорії це зміст, а теґи це предметний покажчик."
+msgstr "Яка ж відмінність між позначками і категоріями? Зазвичай для позначок використовують ключові слова, які підходять для даної публікації. А в якості категорій використовують наперед підготовлені розділи. Якщо розглядати сайт як книжку — то категорії це зміст, а позначки це предметний покажчик."
 
 #: wp-admin/edit-tags.php:245
 msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
-msgstr "Можна групувати публікації у категорії. За замовчуванням публікації відносяться до категорії «Некатегоризоване», але це можна змінити у <a href=\"%s\">налаштуваннях створення</a>."
+msgstr "Можна групувати публікації у категорії. За замовчуванням публікації відносяться до категорії «Без категорії», але це можна змінити у <a href=\"%s\">налаштуваннях створення</a>."
 
 #: wp-admin/edit-tags.php:270
 msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
-msgstr "При додаванні нового теґу на цьому екрані заповнюються наступні поля: "
+msgstr "При додаванні нової позначки на цьому екрані заповнюються наступні поля: "
 
 #: wp-admin/custom-header.php:844
 msgid "You need JavaScript to choose a part of the image."
@@ -8944,7 +8944,7 @@ msgstr "Віджет %s"
 
 #: wp-admin/widgets.php:126
 msgid "Inactive Widgets"
-msgstr "Недіючі віджети"
+msgstr "Неактивні віджети"
 
 #: wp-admin/includes/class-wp-users-list-table.php:276
 msgid "Change"
@@ -10270,7 +10270,7 @@ msgstr "Видно"
 
 #: wp-admin/includes/class-wp-links-list-table.php:134
 msgid "Relationship"
-msgstr "Зв'язок"
+msgstr "Ставлення"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:455
 #: wp-admin/includes/class-wp-post-comments-list-table.php:27
@@ -10294,18 +10294,18 @@ msgstr "Файл"
 #: wp-admin/includes/class-wp-posts-list-table.php:545
 msgctxt "column name"
 msgid "Title"
-msgstr "Назва"
+msgstr "Заголовок"
 
 #: wp-admin/includes/class-wp-terms-list-table.php:462
 #: wp-admin/includes/class-wp-comments-list-table.php:651
 #: wp-admin/includes/class-wp-posts-list-table.php:1277
 msgid "Quick&nbsp;Edit"
-msgstr "Швидке&nbsp;Редагування"
+msgstr "Властивості"
 
 #: wp-admin/includes/class-wp-terms-list-table.php:617
 #: wp-admin/includes/class-wp-posts-list-table.php:1456
 msgid "Quick Edit"
-msgstr "Швидке редагування"
+msgstr "Властивості"
 
 #: wp-admin/includes/schema.php:1093
 msgid "Warning! Wildcard DNS may not be configured correctly!"
@@ -11670,7 +11670,7 @@ msgstr "Опис схований за замовчуванням, але дея
 
 #: wp-admin/edit-tags.php:441 wp-admin/edit-tag-form.php:156
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
-msgstr "\"Слаґ\" це сумісна з URL посиланнями версія назви. Зазвичай це маленькі букви, цифри, та дефіси."
+msgstr "&#8220;Частина посилання&#8221; це версія назви для URL. Зазвичай це маленькі букви, цифри, та дефіси."
 
 #: wp-admin/themes.php:183 wp-admin/themes.php:187
 msgid "Visit site"
@@ -11701,7 +11701,7 @@ msgstr "Востаннє редаговано: %1$s, %2$s о %3$s"
 #: wp-admin/includes/class-wp-posts-list-table.php:1477
 #: wp-admin/edit-tag-form.php:138
 msgid "Slug"
-msgstr "Слаґ"
+msgstr "Частина посилання"
 
 #: wp-admin/includes/meta-boxes.php:1462
 msgid "Send Trackbacks"

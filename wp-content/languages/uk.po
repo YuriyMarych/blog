@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-03 16:02:06+0000\n"
+"PO-Revision-Date: 2019-03-05 22:15:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,10 @@ msgstr " "
 msgid "number_format_decimal_point"
 msgstr ","
 
+#: wp-includes/ms-site.php:73
+msgid "Could not retrieve site data."
+msgstr "Неможливо отримати дані сайту."
+
 #: wp-includes/js/dist/block-library.js:2253
 msgid "Embed Crowdsignal (formerly Polldaddy) content."
 msgstr "Вставити вміст Crowdsignal (раніше Polldaddy)."
@@ -67,61 +71,61 @@ msgid "Your comment is awaiting moderation. This is a preview, your comment will
 msgstr "Ваш коментар чекає схвалення. Це його попередній перегляд, коментар стане видимим для всіх після схвалення."
 
 #. translators: %s: database table name
-#: wp-includes/ms-site.php:1297
+#: wp-includes/ms-site.php:1301
 msgid "The %s table is not installed. Please run the network database upgrade."
 msgstr "Таблиця %s не встановлена. Будь ласка, оновіть базу даних через меню \"Оновити мережу\"."
 
-#: wp-includes/ms-site.php:784
+#: wp-includes/ms-site.php:788
 msgid "The site appears to be already uninitialized."
 msgstr "Схоже, що цей сайт вже деініціалізований."
 
 #. translators: %d: site ID
-#: wp-includes/ms-site.php:666
+#: wp-includes/ms-site.php:670
 msgid "Site %d"
 msgstr "Сайт %d"
 
-#: wp-includes/ms-site.php:653
+#: wp-includes/ms-site.php:657
 msgid "The site appears to be already initialized."
 msgstr "Схоже, що цей сайт вже проініціалізований."
 
-#: wp-includes/ms-site.php:649 wp-includes/ms-site.php:780
+#: wp-includes/ms-site.php:653 wp-includes/ms-site.php:784
 msgid "Site with the ID does not exist."
 msgstr "Сайт з зазначеним ID не існує."
 
-#: wp-includes/ms-site.php:593
+#: wp-includes/ms-site.php:597
 msgid "Both registration and last updated dates must be valid dates."
 msgstr "Дата реєстрації і дата останнього оновлення повинні бути дійсними датами."
 
-#: wp-includes/ms-site.php:582
+#: wp-includes/ms-site.php:586
 msgid "Both registration and last updated dates must be provided."
 msgstr "Повинні бути вказані дата реєстрації та дата останнього оновлення."
 
-#: wp-includes/ms-site.php:575
+#: wp-includes/ms-site.php:579
 msgid "Site network ID must be provided."
 msgstr "Повинен бути зазначений мережевий ідентифікатор сайту."
 
-#: wp-includes/ms-site.php:570
+#: wp-includes/ms-site.php:574
 msgid "Site path must not be empty."
 msgstr "Шлях до сайту не може бути порожнім."
 
-#: wp-includes/ms-site.php:565
+#: wp-includes/ms-site.php:569
 msgid "Site domain must not be empty."
 msgstr "Домен сайту не може бути порожнім."
 
-#: wp-includes/ms-site.php:240
+#: wp-includes/ms-site.php:244
 msgid "Could not delete site from the database."
 msgstr "Неможливо видалити сайт з бази даних."
 
-#: wp-includes/ms-site.php:151
+#: wp-includes/ms-site.php:155
 msgid "Could not update site in the database."
 msgstr "Неможливо оновити сайт в базі даних."
 
-#: wp-includes/ms-site.php:137 wp-includes/ms-site.php:190
+#: wp-includes/ms-site.php:141 wp-includes/ms-site.php:194
 msgid "Site does not exist."
 msgstr "Сайт не існує."
 
-#: wp-includes/ms-site.php:132 wp-includes/ms-site.php:185
-#: wp-includes/ms-site.php:644 wp-includes/ms-site.php:775
+#: wp-includes/ms-site.php:136 wp-includes/ms-site.php:189
+#: wp-includes/ms-site.php:648 wp-includes/ms-site.php:779
 msgid "Site ID must not be empty."
 msgstr "ID сайту не може бути порожнім."
 
@@ -151,7 +155,7 @@ msgstr "Це посилання надано вашим хостингом і є
 #: wp-includes/functions.php:6806
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
-msgstr "https://wordpress.org/support/update-php/"
+msgstr "https://uk.wordpress.org/support/update-php/"
 
 #. translators: Time duration in second or seconds.
 #: wp-includes/functions.php:389
@@ -3050,7 +3054,7 @@ msgstr "Версія формату блоку вмісту, який викор
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1970
 msgid "Slug automatically generated from the object title."
-msgstr "Слаг автоматично генерується з заголовку об'єкта."
+msgstr "Частина посилання автоматично генерується з заголовку об'єкта."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:352
 msgid "There is nothing to save. The autosave and the post content are the same."
@@ -13046,7 +13050,7 @@ msgstr ""
 "%2$s"
 
 #: wp-includes/ms-functions.php:679 wp-includes/ms-functions.php:1307
-#: wp-includes/ms-site.php:610
+#: wp-includes/ms-site.php:614
 msgid "Sorry, that site already exists!"
 msgstr "На жаль, такий сайт вже існує!"
 
